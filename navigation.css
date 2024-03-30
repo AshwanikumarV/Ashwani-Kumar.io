@@ -1,0 +1,23 @@
+.list {/*List formating*/
+	list-style-type: none;
+	overflow: hidden;
+	margin-top: 0%;
+}
+.link{
+	float:left;
+}
+.link a{
+	display:block;
+	color:ghostwhite;
+	text-align: center;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow: 1px 3px 5px rgba(0, 0, 0, 1);
+}
+
+.link a:hover:not(.active){
+	background-color: seagreen;
+}
+.active{
+	background-color: royalblue;
+}

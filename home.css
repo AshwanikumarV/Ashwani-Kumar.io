@@ -1,0 +1,62 @@
+body{
+	background-color:#0008;
+	font-family: calibri;
+}
+#main{
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 20px;
+	height:550px;
+	width:1250px;
+	border: 2px solid ivory;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+	background-color: #0002;
+}
+#image{
+	border-radius:15%; 
+	float: right;
+	box-shadow:1px 6px 12px rgba(0, 0, 0, 1);
+	margin-top:100px;
+	margin-right:100px;
+	transition:all ease 0.5s;
+}
+#image:active{
+	height:300px;
+	width:300px;
+}
+#image:hover{
+	scale:1.05;
+}
+#intro{
+	width:200px;
+	font-size:20px;
+	font-family:arial;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+	margin-left:100px;
+	margin-top: 150px;
+	transition: all ease 0.5s;
+}
+#intro:hover{
+	scale:1.02;
+}
+#pro{
+	width:300px;
+	font-size:40px;
+	font-family:arial;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+	margin-left:100px;
+	transition: all ease 0.5s;
+}
+#pro:hover{
+	scale:1.03;
+}
+#name{
+	width:700px;
+	font-size: 100px;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+	margin-left:100px;
+	transition: all ease 0.5s;
+}
+#name:hover{
+	scale:1.05;
+}

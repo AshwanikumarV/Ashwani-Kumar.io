@@ -1,0 +1,72 @@
+body{
+	background-color: #0008;
+	font-family: calibri;
+	color:ivory;
+}
+.main{
+	border:3px solid ivory;
+	border-radius: 20px; 
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+	background: #0002;
+}
+#profile_pic{
+	margin-top: 5px;
+	border-radius: 50%;
+	margin-left: 20%;
+	height:220px;
+	width:220px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+#name{
+	height: 200px;
+	width: 500px;
+	float:right;
+	text-align: centre;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+	margin-right: 20%;
+	margin-top: 5%;
+}
+#details{
+	margin-left:3%;
+	height:400px;
+	width:750px;
+	padding: 5px;
+	border-radius: 5%;
+}
+.contact{
+	margin-left:5%;
+	height:21px;
+	width:21px;
+}
+#contact_d{
+	height: 10px;
+	width: 120px;
+}
+.details{
+	color:white;
+	padding:2px;
+	font-family:calibri;
+	font-size: 20px;
+	text-shadow: 2px 0 4px black;
+}
+.skill{
+	width:200px;
+	height:130px;
+	color:ivory;
+	border:1px solid ivory;
+	padding:5px;
+	border-radius:5%;
+	background:#0002;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+}
+.award{
+	width:225px;
+	height: 200px;
+	color:ivory;
+	border:1px solid ivory;
+	padding:2px;
+	border-radius:5%;
+	background:#0002;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+	text-align: center;
+}
