@@ -12,24 +12,23 @@ body{
 #profile_pic{
 	margin-top: 5px;
 	border-radius: 50%;
-	margin-left: 20%;
+	margin-left: 22.5%;
 	height:220px;
 	width:220px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 #name{
 	height: 200px;
-	width: 500px;
-	float:right;
-	text-align: centre;
+	width:490px;
+	float: right;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
-	margin-right: 20%;
-	margin-top: 5%;
+	margin-right: 9%;
+	margin-top: 3%;
 }
 #details{
 	margin-left:3%;
-	height:400px;
-	width:750px;
+	height:450px;
+	width:700px;
 	padding: 5px;
 	border-radius: 5%;
 }
@@ -50,7 +49,7 @@ body{
 	text-shadow: 2px 0 4px black;
 }
 .skill{
-	width:200px;
+	width:180px;
 	height:130px;
 	color:ivory;
 	border:1px solid ivory;
