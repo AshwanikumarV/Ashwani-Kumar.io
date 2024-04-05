@@ -20,9 +20,7 @@ body{
 #name{
 	height:relative;
 	width:relative;
-	float: right;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
-	margin-right: 20%;
 	margin-top: 3%;
 }
 #details{
@@ -73,4 +71,5 @@ body{
 	display: flex;
 	gap:20px;
 	flex: row;
+	height: auto;
 }
