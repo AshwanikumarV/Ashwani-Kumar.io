@@ -4,9 +4,10 @@ body{
 	color:ivory;
 }
 .main{
-	border:3px solid ivory;
 	border-radius: 20px; 
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+	border-right: 2px solid ivory;
+	border-bottom: 2px solid ivory;
+	box-shadow: 0 4px 8px rgba(200, 200, 200, 0.75);
 	background: #0002;
 }
 #profile_pic{
@@ -15,12 +16,15 @@ body{
 	margin-left: 17.5%;
 	height:220px;
 	width:220px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+	border-right: 2px solid ivory;
+	border-bottom: 2px solid ivory;
+	box-shadow: 0 4px 8px rgba(200, 200, 200, 0.65);
 }
 #name{
 	height:relative;
 	width:relative;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+	text-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
+	/*text-shadow: 0 1px 3px rgba(0, 0, 0, 1);*/
 	margin-top: 3%;
 }
 #details{
