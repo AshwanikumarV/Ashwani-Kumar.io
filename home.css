@@ -20,14 +20,15 @@ body{
 }
 .details{
 	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 75px;
 }
 #image{
 	border-radius:15%; 
 	border-right: 2px solid ivory;
 	border-bottom: 2px solid ivory;
 	box-shadow: 0 4px 8px rgba(200, 200, 200, 0.75);
-	margin-top:100px;
-	margin-right:100px;
 	transition:all ease 0.5s;
 }
 #image:active{
@@ -39,8 +40,6 @@ body{
 	font-size:20px;
 	font-family:arial;
 	text-shadow: 0 1px 4px rgba(200, 200, 200, 0.5);
-	margin-left:100px;
-	margin-top: 150px;
 	transition: all ease 0.5s;
 }
 #intro:hover{
@@ -51,7 +50,6 @@ body{
 	font-size:40px;
 	font-family:arial;
 	text-shadow: 0 2px 6px rgba(200, 200, 200, 0.5);
-	margin-left:100px;
 	transition: all ease 0.5s;
 }
 #pro:hover{
@@ -61,7 +59,6 @@ body{
 	width:700px;
 	font-size: 100px;
 	text-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
-	margin-left:100px;
 	transition: all ease 0.5s;
 }
 #name:hover{
