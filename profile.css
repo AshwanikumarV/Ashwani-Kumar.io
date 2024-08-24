@@ -9,13 +9,14 @@ body{
 	border-bottom: 2px solid ivory;
 	box-shadow: 0 4px 8px rgba(200, 200, 200, 0.75);
 	background: #0002;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #profile_pic{
-	margin-top: 5px;
 	border-radius: 50%;
-	margin-left: 17.5%;
-	height:220px;
-	width:220px;
+	height:13.75em;
+	width:13.75em;
 	border-right: 2px solid ivory;
 	border-bottom: 2px solid ivory;
 	box-shadow: 0 4px 8px rgba(200, 200, 200, 0.65);
@@ -25,7 +26,6 @@ body{
 	width:relative;
 	text-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
 	/*text-shadow: 0 1px 3px rgba(0, 0, 0, 1);*/
-	margin-top: 3%;
 }
 #details{
 	margin-left:3%;
