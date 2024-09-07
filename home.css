@@ -4,16 +4,13 @@
 body{
 	background-color:#0008;
 	font-family: calibri;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	margin:75px;
 }
 
 #main{
-	margin-top: 2.5em;
 	border-radius: 20px;
 	height:500px;
-	width:1250px;
+	width:1200px;
 	border-right: 2px solid ivory;
 	border-bottom: 2px solid ivory;
 	box-shadow: 0 4px 8px rgba(200, 200, 200, 1);
